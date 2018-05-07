@@ -1,0 +1,7 @@
+http : bersifat stateles : proses sebelumnya tidak diingat oleh proses selanjutnya 
+php : bersifat stateles 
+
+
+garbage collection : auto clear data after 
+
+node js , golang  :  application server  => aplikasi selalu running ;
