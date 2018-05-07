@@ -54,6 +54,164 @@ usage: git remote add [<options>] <name> <url>
 
 
 E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
 
+Unhandled Exception: System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.__Error.FileNotOpen()
+   at System.IO.FileStream.Flush(Boolean flushToDisk)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at Microsoft.Alm.Git.Trace.Microsoft.Alm.Git.ITrace.Flush()
+   at Microsoft.Alm.Cli.Program.Die(String message)
+   at Microsoft.Alm.Cli.Program.Main(String[] args)
+Username for 'https://github.com': ahcmadi
+Password for 'https://ahcmadi@github.com':
+Counting objects: 32, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (32/32), 10.19 KiB | 0 bytes/s, done.
+Total 32 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/achmadiportofolio/OOP.git
+   2dc57ef..f5b3075  master -> master
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git add .
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   git_command_history.txt
+
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git commit -m "git command history"
+[master 5d883b9] git command history
+ 1 file changed, 59 insertions(+)
+ create mode 100644 git_command_history.txt
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+
+Unhandled Exception: System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.__Error.FileNotOpen()
+   at System.IO.FileStream.Flush(Boolean flushToDisk)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at Microsoft.Alm.Git.Trace.Microsoft.Alm.Git.ITrace.Flush()
+   at Microsoft.Alm.Cli.Program.Die(String message)
+   at Microsoft.Alm.Cli.Program.Main(String[] args)
+Username for 'https://github.com': ahcmadi
+Password for 'https://ahcmadi@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.02 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/achmadiportofolio/OOP.git
+   f5b3075..5d883b9  master -> master
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git add .
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git commit "cancel_upload file"
+error: pathspec 'cancel_upload file' did not match any file(s) known to git.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git commit -m "cancel_upload file"
+[master 051f0d9] cancel_upload file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+
+Unhandled Exception: System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.__Error.FileNotOpen()
+   at System.IO.FileStream.Flush(Boolean flushToDisk)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at Microsoft.Alm.Git.Trace.Microsoft.Alm.Git.ITrace.Flush()
+   at Microsoft.Alm.Cli.Program.Die(String message)
+   at Microsoft.Alm.Cli.Program.Main(String[] args)
+Username for 'https://github.com': ahcmadi
+Password for 'https://ahcmadi@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 309 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/achmadiportofolio/OOP.git
+   5d883b9..051f0d9  master -> master
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git remote -v
+origin  https://github.com/achmadiportofolio/OOP.git (fetch)
+origin  https://github.com/achmadiportofolio/OOP.git (push)
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git remote rm framework/composer.lock
+fatal: No such remote: framework/composer.lock
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git add -u
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+
+Unhandled Exception: System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.__Error.FileNotOpen()
+   at System.IO.FileStream.Flush(Boolean flushToDisk)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at Microsoft.Alm.Git.Trace.Microsoft.Alm.Git.ITrace.Flush()
+   at Microsoft.Alm.Cli.Program.Die(String message)
+   at Microsoft.Alm.Cli.Program.Main(String[] args)
+Username for 'https://github.com': ahcmadi
+Password for 'https://ahcmadi@github.com':
+Everything up-to-date
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git rm --cached framework/composer.lock
+rm 'framework/composer.lock'
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git commit -m "remove_composerlock"
+[master 6db9997] remove_composerlock
+ 1 file changed, 633 deletions(-)
+ delete mode 100644 framework/composer.lock
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+
+Unhandled Exception: System.ObjectDisposedException: Cannot access a closed file.
+   at System.IO.__Error.FileNotOpen()
+   at System.IO.FileStream.Flush(Boolean flushToDisk)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at Microsoft.Alm.Git.Trace.Microsoft.Alm.Git.ITrace.Flush()
+   at Microsoft.Alm.Cli.Program.Die(String message)
+   at Microsoft.Alm.Cli.Program.Main(String[] args)
+Username for 'https://github.com': ahcmadi
+Password for 'https://ahcmadi@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 288 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/achmadiportofolio/OOP.git
+   051f0d9..6db9997  master -> master
 
 E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>
