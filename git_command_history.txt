@@ -1,0 +1,59 @@
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git init
+Reinitialized existing Git repository in E:/xampp.5.6.11_x/htdocs/workshop_sidoarjo_oop/repo/OOP/.git/
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git add .
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git commit -m "first commit"
+[master f5b3075] first commit
+ 26 files changed, 1429 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 InterfaceActivity.php
+ create mode 100644 InterfaceActivity2.php
+ create mode 100644 Teacher.php
+ create mode 100644 Test_File.txt
+ create mode 100644 User.php
+ create mode 100644 abstractClass.php
+ create mode 100644 anonymousclass.php
+ create mode 100644 framework/Array
+ create mode 100644 framework/CATATAN
+ create mode 100644 framework/Test_File.txt
+ create mode 100644 framework/composer.json
+ create mode 100644 framework/composer.lock
+ create mode 100644 framework/container.php
+ create mode 100644 framework/index.php
+ create mode 100644 framework/src/Controller/ArticleController.php
+ create mode 100644 framework/src/Controller/ProfileController.php
+ create mode 100644 framework/src/DataStore/DataStoreInterface.php
+ create mode 100644 framework/src/DataStore/FileDataStore.php
+ create mode 100644 framework/src/DataStore/MemoryDataStore.php
+ create mode 100644 framework/src/Model/Article.php
+ create mode 100644 framework/src/Model/Post.php
+ create mode 100644 framework/src/Model/User.php
+ create mode 100644 interface.php
+ create mode 100644 magic_method.php
+ create mode 100644 staticMethod.php
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git remote add origin remote repository https://github.com/achmadiportofolio/OOP.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>git push
+
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>
