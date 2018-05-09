@@ -214,4 +214,192 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/achmadiportofolio/OOP.git
    051f0d9..6db9997  master -> master
 
-E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\repo\OOP>
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\User>cd E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop
+
+C:\Users\User>e:
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop>git branch
+fatal: Not a git repository (or any of the parent directories): .git
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop> cd OOP
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git branch
+* master
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git checkout master
+Already on 'master'
+Your branch is up-to-date with 'origin/master'.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git fetch upstream
+fatal: 'upstream' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git remote add upstream  git@github.com:achmadiportofolio/OOP.git
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git fetch upstream
+Warning: Permanently added the RSA host key for IP address '13.229.188.59' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git remote set-url origin git@github.com:achmadiportofolio/OOP.git
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh -vT git@github.com
+OpenSSH_7.3p1, OpenSSL 1.0.2k  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Connecting to github.com [52.74.223.119] port 22.
+debug1: Connection established.
+debug1: identity file /c/Users/User/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.3
+debug1: Remote protocol version 2.0, remote software version libssh_0.7.0
+debug1: no match: libssh_0.7.0
+debug1: Authenticating to github.com:22 as 'git'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ssh-rsa
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ssh-rsa SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
+debug1: Host 'github.com' is known and matches the RSA host key.
+debug1: Found key in /c/Users/User/.ssh/known_hosts:4
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS received
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /c/Users/User/.ssh/id_rsa
+debug1: Authentications that can continue: publickey
+debug1: Trying private key: /c/Users/User/.ssh/id_dsa
+debug1: Trying private key: /c/Users/User/.ssh/id_ecdsa
+debug1: Trying private key: /c/Users/User/.ssh/id_ed25519
+debug1: No more authentication methods to try.
+Permission denied (publickey).
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh -T git@github.com
+Permission denied (publickey).
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh-add -l
+Could not open a connection to your authentication agent.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh -vT git@github.com
+OpenSSH_7.3p1, OpenSSL 1.0.2k  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Connecting to github.com [13.250.177.223] port 22.
+debug1: Connection established.
+debug1: identity file /c/Users/User/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /c/Users/User/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.3
+debug1: Remote protocol version 2.0, remote software version libssh_0.7.0
+debug1: no match: libssh_0.7.0
+debug1: Authenticating to github.com:22 as 'git'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ssh-rsa
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ssh-rsa SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
+debug1: Host 'github.com' is known and matches the RSA host key.
+debug1: Found key in /c/Users/User/.ssh/known_hosts:4
+Warning: Permanently added the RSA host key for IP address '13.250.177.223' to the list of known hosts.
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS received
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /c/Users/User/.ssh/id_rsa
+debug1: Authentications that can continue: publickey
+debug1: Trying private key: /c/Users/User/.ssh/id_dsa
+debug1: Trying private key: /c/Users/User/.ssh/id_ecdsa
+debug1: Trying private key: /c/Users/User/.ssh/id_ed25519
+debug1: No more authentication methods to try.
+Permission denied (publickey).
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh-agent -s
+SSH_AUTH_SOCK=/tmp/ssh-A1gvEY6l0i2v/agent.4592; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=8480; export SSH_AGENT_PID;
+echo Agent pid 8480;
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh-add -l
+Could not open a connection to your authentication agent.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>ssh-add -l -E md5
+Could not open a connection to your authentication agent.
+
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop>ssh-keygen -t rsa -b 4096 -C "diahmad330@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/User/.ssh/id_rsa):
+/c/Users/User/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop>eval $(ssh-agent -s)
+'eval' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop>ssh-add c/Users/User/.ssh/id_rsa
+Could not open a connection to your authentication agent.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop>cd oop
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git fetch upstream
+From github.com:achmadiportofolio/OOP
+ * [new branch]      master     -> upstream/master
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git fetch upstream
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:achmadiportofolio/OOP
+   e2f67a9..273a7aa  master     -> upstream/master
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git fetch upstream
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>
