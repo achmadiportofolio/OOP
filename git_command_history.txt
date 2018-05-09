@@ -403,3 +403,45 @@ From github.com:achmadiportofolio/OOP
 E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git fetch upstream
 
 
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git checkout branch_1
+Switched to branch 'branch_1'
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git status
+On branch branch_1
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git commit add.
+error: pathspec 'add.' did not match any file(s) known to git.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git commit add .
+error: pathspec 'add' did not match any file(s) known to git.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git add .
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git status
+On branch branch_1
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git commit -m "branch_1"
+On branch branch_1
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git status
+On branch branch_1
+nothing to commit, working tree clean
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git push
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_1
+
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>git push --set-upstream origin branch_1
+Total 0 (delta 0), reused 0 (delta 0)
+To github.com:achmadiportofolio/OOP.git
+ * [new branch]      branch_1 -> branch_1
+Branch branch_1 set up to track remote branch branch_1 from origin.
+
+E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>
