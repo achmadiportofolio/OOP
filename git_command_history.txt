@@ -445,3 +445,125 @@ To github.com:achmadiportofolio/OOP.git
 Branch branch_1 set up to track remote branch branch_1 from origin.
 
 E:\xampp.5.6.11_x\htdocs\workshop_sidoarjo_oop\OOP>
+
+-HEROKU---------------------------------------------------------------------------------------------------------
+
+heroku
+cd e:
+e;
+e:
+cd xampp.5.6.11_x
+cd htdocs
+mkdir heroku_project
+cd heroku_project
+heroku login
+heroku git:clone -a akuntan
+heroku git:clone -a vast-sierra-8515
+doskey /history > somefile.txt`
+heroku git:clone -a vast-sierra-8515
+heroku git:clone -a demo-sppd
+heroku create 
+doskey /history > somefile.txt
+
+git reset --hard HEAD
+
+
+
+heroku addons:create heroku-postgresql:hobby-dev
+
+
+
+-----------
+$ heroku login
+Clone the repository
+Use Git to clone akuntan's source code to your local machine.
+
+$ heroku git:clone -a akuntan
+$ cd akuntan
+Deploy your changes
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+
+heroku create
+
+
+git clone git@github.com:achmadi/laravel-starter-kit.git
+cd laravel-starter-kit
+git add .
+git commit -m " git autodeploy"
+git push master 
+git remote add origin git@github.com:achmadi/laravel-starter-kit.git
+git remote -v
+git push origin master 
+git push 
+git push origin master 
+git add .
+git commit -m "achmadi"
+git push 
+git add.
+git add .
+git commit -m "x"
+git push 
+git add .
+git commit -m "dddddddd"
+git push 
+git add .
+git commit -m "xtes autodeploy "
+git push 
+ doskey /history > COMMAND_HISTORY.TXT
+npm install
+git add .
+git commit -m "test init"
+git push heroku master
+heroku open 
+doskey /history > heroku_nodejs_init.txt
+git add .
+git commit -m "doc history command "
+git push heroku master 
+cd ..
+cd akuntan
+heroku open
+cd ..
+heroku create app_int_heroku_git
+heroku git:remote -a app_int_heroku_git
+heroku git:remote -a app2int2heroku_git
+heroku git:remote -a app2int2heroku2git
+heroku create app2int2heroku2git
+heroku git:remote -a app2int2heroku2git
+mkdir app2int2heroku2git
+cd app2int2heroku2git
+heroku git:remote -a app2int2heroku2git
+git init
+heroku git:remote -a app2int2heroku2git
+git pull heroku master 
+heroku open 
+git clone https://git.heroku.com/app2int2heroku2git.git
+cd ..
+
+
+
+heroku create nodejsach
+
+mkdir nodejsach
+cd nodejsach
+git init
+
+heroku git:remote -a nodejsach
+git status
+
+    npm init
+    npm install
+
+git add .
+git commit -m "test init"
+git push heroku master
+
+heroku open 
+doskey /history > heroku_nodejs_init.txt
+
+
+
